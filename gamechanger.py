@@ -1,26 +1,3 @@
-"""
-gamechanger.py  (Task 5, Phase B)
-
-Ground-truth "game-changer" rankings from season totals in players.csv.
-
-A game-changer contributes across three phases, each measured per game:
-  offense    = points per game                 (Pts / GP)
-  possession = (draw controls + ground balls) per game   ((DC + GB) / GP)
-  defense    = caused turnovers per game        (CT / GP)
-
-Only players with GP >= 8 are ranked, to avoid small-sample artifacts.
-
-The three phases live on different scales, so they are z-scored (standard
-deviations above/below the qualifier mean) before being combined. Two
-combination rules are reported, because the choice changes the answer and
-that sensitivity is itself a finding:
-
-  1. EQUAL-WEIGHT SUM  - sum of the three z-scores. Rewards a big edge in
-     any single phase, so single-phase specialists rank high.
-  2. BALANCE-REWARDING - equal-weight sum minus a penalty for imbalance
-     (the spread between a player's best and worst phase). Rewards players
-     who are positive across all three phases, not extreme in one.
-"""
 
 import csv
 import statistics
