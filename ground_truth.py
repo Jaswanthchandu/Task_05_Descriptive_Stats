@@ -1,13 +1,3 @@
-"""
-ground_truth.py  (Task 5)
-
-Computes trustworthy answers about the 2025 Syracuse Women's Lacrosse season from
-players.csv and games.csv. These numbers are the "answer key" used to check the
-LLM's responses in Phase A (factual) and Phase B (derived metrics / judgment).
-
-Usage:
-    python ground_truth.py
-"""
 
 import csv
 import statistics
