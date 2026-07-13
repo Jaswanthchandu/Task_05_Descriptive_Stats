@@ -4,8 +4,7 @@
 **Dataset:** 2025 Syracuse Women's Lacrosse season (see README).
 **Ground truth:** `ground_truth.py` and `gamechanger.py`, computed independently before
 checking the model.
-**Method:** The dataset (`players.csv`, `games.csv`) was pasted into a fresh Claude
-conversation. Each question below records the prompt, a summary of Claude's answer,
+**Method:** The dataset (`players.csv`, `games.csv`) was pasted into Claude. Each question below records the prompt, a summary of Claude's answer,
 the verdict against ground truth, and how the model arrived at its answer.
 
 ---
