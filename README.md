@@ -11,7 +11,7 @@ judgment.
 
 ## Dataset
 
-Source: [Syracuse Women's Lacrosse statistics (cuse.com)](https://cuse.com), 2025
+Source: [Syracuse Women's Lacrosse statistics (cuse.com)](https://cuse.com/sports/2013/1/16/WLAX_0116134638), 2025
 season combined team statistics (as of May 12, 2025), 10-9 record over 19 games.
 
 The official report is a PDF. I transcribed it into two small CSVs, which are included
