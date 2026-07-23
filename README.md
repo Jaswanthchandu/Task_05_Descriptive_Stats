@@ -20,6 +20,8 @@ here as my own derived work:
   game-winners, ground balls, draw controls, turnovers, caused turnovers).
 - `games.csv`, 19 games (date, opponent, home/away/neutral, result, scores, overtime).
 
+Note on included data: The two CSVs here (players.csv, games.csv) are my own transcription of a public box score (linked above), included so that ground_truth.py, gamechanger.py, and the prompt log are fully reproducible. Since these are small, self-transcribed public stats rather than a large provided dataset, I opted to commit them; happy to remove them and add transcription instructions instead if you'd prefer.
+
 ## Ground-truth scripts
 
 - `ground_truth.py`, the Phase A answer key: games, record, scoring leaders, margins,
